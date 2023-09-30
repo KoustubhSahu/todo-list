@@ -1,0 +1,21 @@
+<%- include('partials/header.ejs') %>
+
+<!-- Heading for the List -->
+<div class="box" id="heading">
+  <h1><%= day %> - <%= month %> <%= date %>, <%= year %></h1>
+</div>
+      
+<%- include('partials/list-display.ejs') %>
+
+<!-- Adding an item -->
+<form class="item" action="/" method="post">
+  <input
+    type="text"
+    name="newItem"
+    placeholder="New Item"
+    autocomplete="off"
+  />
+  <button type="submit" name="list" value="Work" List>+</button>
+</form>
+
+<%- include('partials/footer.ejs') %>

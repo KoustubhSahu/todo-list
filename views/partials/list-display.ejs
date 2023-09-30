@@ -1,0 +1,13 @@
+<div class="box">
+    <% if (locals.list) { %>
+        <% list.forEach((item) => { %>
+            <div class="item">
+            <input type="checkbox" />
+            <p> <%= item %> </p>
+            </div>
+                  
+        <% }); %>
+    <% } %>
+
+
+    

@@ -1,0 +1,20 @@
+<%- include('partials/header.ejs') %>
+
+  <div class="box" id="heading">
+    <h1>Work List</h1>
+  </div>
+      
+<%- include('partials/list-display.ejs') %>
+
+<!-- Adding an item -->
+<form class="item" action="/work" method="post">
+  <input
+    type="text"
+    name="newItem"
+    placeholder="New Item"
+    autocomplete="off"
+  />
+  <button type="submit" name="list" value="Work" List>+</button>
+</form>
+
+<%- include('partials/footer.ejs') %>
