@@ -29,10 +29,10 @@ This project was created as a hobby project to demonstrate a simple yet effectiv
 
 To run the application, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/to-do-list-project.git`
-2. Install dependencies: `npm install`
-3. Start the application: `npm start`
-4. Open your web browser and navigate to `http://localhost:3000`
+1. Clone the repository: `git clone https://github.com/KoustubhSahu/to-do-list.git`
+3. Install dependencies: `npm install`
+4. Start the application: `npm start`
+5. Open your web browser and navigate to `http://localhost:3000`
 
 ## Contributing
 ---------------
