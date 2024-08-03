@@ -1,8 +1,8 @@
 import express from "express";
 import bodyParser from "body-parser";
 
-var todayList = ["Complete this web app Today"];
-var workList = ["Complete this web app at Work"];
+var todayList = ["Cook Good food", "Eat the food you cooked", "add salt to your food", "Sleep", "Repeat"];
+var workList = ["arrive at work", "say hi to everyone", "eat lunch", "ask how everyone is doing", "start wrokig when otehr start to leave", "stay late and work in peace"];
 var date = new Date();
 var currentYear = date.getFullYear();
 const months = [

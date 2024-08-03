@@ -2,12 +2,6 @@
 
 Welcome to the Todo List application! This dynamic to-do list app is built using Node.js, Express.js, and EJS, designed to help you manage your tasks effortlessly. Whether you're organizing your daily chores or work-related tasks, this app has got you covered.
 
-![Todo List App Screenshot](screenshot.png)
-
-## Key Features# Todo List
-
-Welcome to the Todo List application! This dynamic to-do list app is built using Node.js, Express.js, and EJS, designed to help you manage your tasks effortlessly. Whether you're organizing your daily chores or work-related tasks, this app has got you covered.
-
 ![Todo List App Screenshot](ss.png)
 
 ## Key Features
